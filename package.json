@@ -16,8 +16,11 @@
     "typescript": "^4.7.3"
   },
   "exports": {
-    "*": "./dist/vanilla-marquee.js",
-    "types": "./dist/vanilla-marquee.d.ts"
+    ".": {
+      "require": "./dist/vanilla-marquee.min.js",
+      "import": "./dist/vanilla-marquee.min.js",
+      "types": "./dist/vanilla-marquee.d.ts"
+    }
   },
   "bugs": {
     "url": "https://github.com/mattiacoll/js-marquee/issues"
